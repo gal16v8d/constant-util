@@ -21,5 +21,4 @@ public final class GralConstants {
   public static final String SYS_OUT = ">>";
   public static final String UNDERSCORE = "_";
   public static final String UTF_8 = "UTF-8";
-
 }

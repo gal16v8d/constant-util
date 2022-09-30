@@ -18,5 +18,4 @@ public final class NumericConstants {
   public static final int EIGHT = 8;
   public static final int NINE = 9;
   public static final int TEN = 10;
-
 }

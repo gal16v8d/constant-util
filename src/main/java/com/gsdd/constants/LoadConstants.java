@@ -13,5 +13,4 @@ public final class LoadConstants {
   public static String getHome() {
     return System.getenv(GSDD_HOME);
   }
-
 }
