@@ -6,7 +6,7 @@ Tiny single-module Java library (Java 25, Maven). All code is constants classes 
 
 - `mvn verify` — the full check; passes end to end (spotless → compile → jacoco → checkstyle → package). There are no tests, so never add `-DskipTests` thinking it's needed.
 - Spotless (`google-java-format 1.21.0`) is bound to `apply` during the build, so `mvn verify` reformats files itself. `ratchetFrom=origin/main` limits it to files changed vs `origin/main`. If you edit Java, either run `mvn spotless:apply` or let the build do it — don't hand-format.
-- Plugin versions/management come from the parent `com.gsdd:gsdd-parent:1.0.7`; the module `pom.xml` only configures executions.
+- Plugin versions/management come from the parent `com.gsdd:gsdd-parent`; the module `pom.xml` only configures executions.
 
 ## Code conventions
 
